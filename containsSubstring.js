@@ -1,9 +1,9 @@
 // Check if one string contains another.
 
-// function containsSubstring(str, subStr) {
-//   return str.includes(subStr);
-// }
-// console.log(containsSubstring("hello world", "hello"));
+function containsSubstring(str, subStr) {
+  return str.includes(subStr);
+}
+console.log(containsSubstring("hello world", "hello"));
 
 // without usinng built-in method
 // function containsSubstring(str, subStr) {
